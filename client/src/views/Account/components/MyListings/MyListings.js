@@ -206,9 +206,7 @@ const AccountProfile = props => {
                     </Button>
                   </Link>
                     <Button
-                      style={{color: 'red'}}
-                      variant="text"
-                      // color="primary"
+                      color="primary"
                       onClick={() => handleDelete(list)}
                     >
                       DELETE 

@@ -324,7 +324,7 @@ const AccountProfile = props => {
                 required
                 value={userState.values.city}
                 variant="outlined"
-                placeholder='(305) 555-1234'
+                placeholder='Miami'
               />
             </Grid>
             <Grid
@@ -341,6 +341,7 @@ const AccountProfile = props => {
                 required
                 value={userState.values.state}
                 variant="outlined"
+                placeholder='Florida'
               />
             </Grid>
             <Grid
